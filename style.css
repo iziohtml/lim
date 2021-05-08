@@ -1,0 +1,126 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+  background: url("img/background.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgb(0,0,0,0.60);
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  color: #00dd00;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  margin-top: 40px;
+}
+
+main, section {
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding: 5px;
+}
+
+section div:first-child {
+  background-color: #00dd00;
+  padding: 7px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+section div:first-child *{
+  background-color: white;
+  border: none;
+  color: #00dd00;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+  margin: 2px;
+  border-radius: 2px;
+}
+
+section div:first-child *:hover{
+  background-color: green;
+}
+
+main *{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.vehicle {
+  background-color: rgba(255,255,255,0.08)
+}
+
+div h2{
+  display: inline-block;
+  margin: 0;
+  margin-top: 3px;
+}
+
+.location {
+  width: 90%;
+  margin: auto;
+}
+
+.locationsymbol {
+  color: #00dd00;
+}
+
+.locationsymbol:hover {
+  color:green;
+}
+
+[class^="charge"] {
+  border-radius: 3px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 3px;
+}
+
+.charge100 {
+  background-color: #1ec31e;
+  width: 80%;
+}
+
+.charge32 {
+  background-color: #bb4443;
+  width: 25%;
+}
+
+.charge57 {
+  background-color: #f5b453;
+  width: 45%;
+}
+
+.charge85 {
+  background-color: #1ec31e;
+  width: 70%;
+}
+
+.charge12 {
+  background-color: #c92010;
+  width: 10%;
+}
+
+label span {
+  background-color: rgba(190, 0, 0, 0.8);
+  border-radius: 50%;
+  padding: 6px;
+}
+
+footer {
+  font-size: 12px;
+  text-align: right;
+  padding: 5px;
+}
